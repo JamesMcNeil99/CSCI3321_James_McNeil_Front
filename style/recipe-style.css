@@ -1,0 +1,63 @@
+*{
+    font-family:Georgia;
+    }
+    .headers{
+    text-align:center;
+    text-decoration:underline;
+    }
+    /*div for the body of each recipe card*/
+    div.main{
+    width: 700px;
+    margin: 15px auto 15px auto;
+    border-style:solid;
+    border-color:#e36c46;
+    background-color:#fff8f2;
+    padding: 15px;
+    }
+    /*flex box for image and ingredients*/
+    div.recipe{
+    display: flex;
+    justify-content: left;
+    border-bottom-style:solid;
+    border-bottom-color:#e36c46;
+    padding-bottom: 15px;
+    }
+    
+    .item{
+    margin-left: 40px;
+    }
+    
+    img{
+    display:block;
+    margin-top: auto;
+    margin-bottom:auto;
+    width: 250px;
+    height: 250px;
+    border-style:solid;
+    border-width:2px;
+    border-color:#e36c46;
+    }
+    body{
+    background-color:#ffbe8c;
+    }
+    h2{
+    font-size:28px;
+    }
+    h1{
+    font-size: 36px;
+    }
+    a:link{
+    color:#f59145;
+    }
+    a:visited{
+    color:#f59145;
+    }
+    a:hover{
+    color:#ffc28c;
+    }
+    a:active{
+    color:#ffc28c;
+    }
+    li{
+    margin-bottom: 5px;
+    }
