@@ -31,13 +31,13 @@ header.section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 0px  5px;
     margin: 50px 25%;
 }
 #profile{
     grid-area: image;
     display: block;
-    margin: 5% auto 5%;
+    margin: 30px auto 30px;
     width: 200px;
     height: auto;
     border-radius: 50%;
@@ -46,8 +46,7 @@ header.section{
     border-width: 3px;
 }
 #logo{
-    max-width: 7%;
-    height:  auto;
+    width: 50px;
     padding-bottom: 5px;
 }
 nav {
