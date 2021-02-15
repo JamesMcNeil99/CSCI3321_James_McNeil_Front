@@ -1,8 +1,72 @@
-
+a:link{
+    color: #fde55c;
+}
+a:visited{
+    color: #ffea95;
+}
+a:hover{
+    color: #fff5cc;
+}
+a:active{
+    color: #eead08;
+}
 body{
     background-image: url("https://cdn.discordapp.com/attachments/805901612601573386/810933497929793566/background.png");
+    color: #fff5cc;
+    font-family: Myanmar Text, Verdana, sans-serif;
+    display:flex;
+    flex-wrap:wrap;
 }
 .section {
     border-style: solid;
-    border-color: goldenrod;
+    border-color: #eead08;
+    background: #222222;
+    margin: 10px 25%;
+    border-width: 3px;
+    padding-left: 5px;
+    width: 75%;
+    border-radius: 15px;
+}
+header.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 50px 25%;
+}
+#profile{
+    grid-area: image;
+    display: block;
+    margin: 5% auto 5%;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: #eead08;
+    border-width: 3px;
+}
+#logo{
+    max-width: 7%;
+    height:  auto;
+    padding-bottom: 5px;
+}
+nav {
+    padding-top: 3px;
+    font-size: 18px;
+}
+main{
+    text-align: center;
+    line-height: 25px;
+}
+main h1{
+    font-size: 30px;
+    font-weight:bold;
+}
+main h2{
+    font-size: 20px;
+    font-weight:lighter;
+}
+nav li{
+    display:inline;
+    padding-right: 3px;
 }
