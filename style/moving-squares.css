@@ -1,0 +1,74 @@
+#square-container{
+    border-width: 1px;
+    border-style: solid;
+    border-color:dodgerblue;
+    width: 800px;
+    height: 500px;
+    transition: all 4s;
+}
+.even, .odd{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 5px auto;
+    border-style: dashed;
+    font-size: bold;
+    transition: all 4s;
+    transition-timing-function: ease;
+}
+body{
+    background-color: rgb(196, 196, 196);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#square-container:hover .odd{
+    transform: translateX(370px) rotate(1080deg) scale(.75) translateY(-13px);
+}
+#square-container:hover .even{
+    transform: translateX(-320px) rotate(-1080deg) scale(2)translateY(13px);
+}
+#body{
+    display: flex;
+    justify-content: center;
+}
+#square-container:hover{
+    height: 550px;
+    border-radius: 20px;
+}
+#one{
+    border-color:rgb(255, 0, 0);
+    background-color:lightpink
+}
+#two{
+    border-color:rgb(255, 153, 0);
+    background-color:rgb(255, 185, 81);
+}
+#three{
+    border-color:rgb(255, 230, 0);
+    background-color:rgb(255, 247, 128);
+}
+#four{
+    border-color:rgb(30, 255, 0);
+    background-color:rgb(180, 255, 137);
+}
+#five{
+    border-color:rgb(0, 238, 255);
+    background-color:rgb(176, 255, 255);
+}
+#six{
+    border-color:rgb(0, 60, 255);
+    background-color:rgb(130, 142, 255);
+}
+#seven{
+    border-color:rgb(47, 0, 255);
+    background-color:rgb(148, 129, 255);
+}
+#eight{
+    border-color:rgb(174, 0, 255);
+    background-color:rgb(212, 137, 255);
+}
+
+
+
