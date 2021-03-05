@@ -24,10 +24,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #square-container:hover .odd{
-    transform: translateX(370px) rotate(1080deg) scale(.75) translateY(-13px);
+    transform: translateX(370px) rotate(-1080deg) scale(.75) translateY(-13px);
 }
 #square-container:hover .even{
-    transform: translateX(-320px) rotate(-1080deg) scale(2)translateY(13px);
+    transform: translateX(-320px) rotate(1080deg) scale(2)translateY(13px);
 }
 #body{
     display: flex;
