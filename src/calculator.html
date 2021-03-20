@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="../style/calculator.css">
+    <script src="../scripts/calculator.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="output"></div>
+        <div id="pluskey" onclick="addToDisplay('+')">+</div>
+        <div id="minkey"onclick="addToDisplay('-')">-</div>
+        <div id="multkey"onclick="addToDisplay('*')">*</div>
+        <div id="divkey"onclick="addToDisplay('/')">/</div>
+        <div id="digit7" onclick="addToDisplay('7')">7</div>
+        <div id= "digit8"onclick="addToDisplay('8')">8</div>
+        <div id= "digit9"onclick="addToDisplay('9')">9</div>
+        <div id= "digit4"onclick="addToDisplay('4')">4</div>
+        <div id= "digit5"onclick="addToDisplay('5')">5</div>
+        <div id= "digit6"onclick="addToDisplay('6')">6</div>
+        <div id= "digit1"onclick="addToDisplay('1')">1</div>
+        <div id= "digit2"onclick="addToDisplay('2')">2</div>
+        <div id= "digit3"onclick="addToDisplay('3')">3</div>
+        <div id= "digit0"onclick="addToDisplay('0')">0</div>
+        <div id= "AC"onclick="addToDisplay('AC')">AC</div>
+        <div id= "equals"onclick="if(document.getElementById('output').innerHTML !== ''){addToDisplay('=')}">=</div>
+    </div>
+</body>
+</html>

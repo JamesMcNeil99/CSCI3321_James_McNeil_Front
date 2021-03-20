@@ -1,0 +1,90 @@
+.container{
+    display: grid;
+    margin: 20px auto;
+    width: 380px;
+    height: 450px;
+    background-color: blue;
+    grid-gap: 5px;
+    grid-template-areas: 'output output output output'
+                        'pluskey minkey multkey divkey'
+                        'digit7 digit8 digit9 equals'
+                        'digit4 digit5 digit6 equals'
+                        'digit1 digit2 digit3 equals'
+                        'AC AC digit0 equals';
+    padding: 7px;
+}
+#output{
+    cursor: auto;
+    border-radius: 10px;
+    grid-area: output;
+    background-color: white;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 30px;
+    overflow: auto;
+}
+#digit1{
+    grid-area: digit1;
+
+}
+#digit2{
+    grid-area: digit2;
+}
+#digit3{
+    grid-area: digit3;
+    
+}
+#digit4{
+    grid-area: digit4;
+    
+}
+#digit5{
+    grid-area: digit5;
+}
+#digit6{
+    grid-area: digit6;
+}
+#digit7{
+    grid-area: digit7;
+}
+#digit8{
+    grid-area: digit8;
+}
+#digit9{
+    grid-area: digit9;
+}
+#digit0{
+    grid-area: digit0;
+}
+#pluskey{
+    grid-area: pluskey;
+}
+#divkey{
+    grid-area: divkey;
+}
+#minkey{
+    grid-area: minkey;
+}
+#multkey{
+    grid-area: multkey;
+}
+#equals{
+    grid-area: equals;
+    height: auto;
+    line-height: 290px;
+}
+#AC{
+    grid-area: AC;
+}
+.container div{
+    cursor: pointer;
+    text-align: center;
+    background-color: rgb(201, 201, 201);
+    font-size: 30px;
+    border-radius: 5px;
+    height: 70px;
+    line-height: 70px;
+}
+body{
+    background-color: rgb(219, 219, 219);
+}
