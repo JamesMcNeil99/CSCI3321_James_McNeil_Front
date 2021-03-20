@@ -14,8 +14,8 @@
     padding: 7px;
 }
 #output{
+    border-radius: 0px;
     cursor: auto;
-    border-radius: 10px;
     grid-area: output;
     background-color: white;
     text-align: right;
