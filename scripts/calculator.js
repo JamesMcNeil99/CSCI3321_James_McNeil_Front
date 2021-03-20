@@ -66,7 +66,6 @@ function evalExpression(){
         }
         else{
             evalStack.push(currentTerm);
-            console.log('added ' + currentTerm + ' to eval stack');
         }
     }
     solution = evalStack.pop().toString();
