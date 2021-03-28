@@ -1,0 +1,103 @@
+body{
+    background-color: grey;
+    color: rgb(39, 39, 39);
+    font-size: 100px;
+    font-family: sans-serif;
+}
+#container {
+    margin: 15px auto;
+    height: 490px;
+    width: 490px;
+    display:grid;
+    grid-template-areas: 'one two three'
+                            'four five six'
+                            'seven eight nine';
+    background-color: rgb(39, 39, 39);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+#container div{
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    background-color: royalblue;
+    justify-self: center;
+    line-height: 150px;
+    text-align: center;
+    border-radius: 3px;
+}
+#one{
+    grid-area: 'one';
+}
+#two{
+    grid-area: 'two';
+}
+#three{
+    grid-area: 'three';
+}
+#four{
+    grid-area: 'four';
+}
+#five{
+    grid-area: 'five';
+}
+#six{
+    grid-area: 'six';
+}
+#seven{
+    grid-area: 'seven';
+}
+#eight{
+    grid-area: 'eight';
+}
+#nine{
+    grid-area: 'nine';
+}
+#status{
+    display: none;
+    font-size:50px;
+    text-align: center;
+    margin-top: 50px;
+}
+#startButton{
+    display: flex;
+    justify-content: center;
+}
+#start{
+    background-color: royalblue;
+    border-style: solid;
+    padding: 7px 15px;
+    border-color: rgb(39, 39, 39);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-width: 3px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+#game{
+    height: 600px;
+
+}
+#rules{
+    margin: 200px auto;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+#format{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+#list{
+    font-size: 20px;
+    text-align: left;  
+}
+li{
+    margin-bottom: 10px;
+}

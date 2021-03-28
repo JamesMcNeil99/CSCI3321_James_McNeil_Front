@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="../style/tic-tac-toe.css">
+    <script src="../scripts/tic-tac-toe.js"></script>
 </head>
 <body>
-    
+    <div id  = "format">
+        <div id = "game">
+            <div id="container">
+                <div id = "one" onclick="playOnTile('one')"></div>
+                <div id = "two" onclick="playOnTile('two')"></div>
+                <div id = "three" onclick="playOnTile('three')"></div>
+                <div id = "four" onclick="playOnTile('four')"></div>
+                <div id = "five" onclick="playOnTile('five')"></div>
+                <div id = "six" onclick="playOnTile('six')"></div>
+                <div id = "seven" onclick="playOnTile('seven')"></div>
+                <div id = "eight" onclick="playOnTile('eight')"></div>
+                <div id = "nine" onclick="playOnTile('nine')"></div>
+            </div>
+            <div id = "status">Test</div>
+            <div id="startButton">
+                <button id="start" onclick="beginGame()">Start</button>
+            </div>
+        </div>
+        <div id="rules">Rules:
+            <ul id="list">
+                <li>Once the game begins, each player will take turns placing<br>their token in an empty tile. </li>
+                <li>If a player gets three tokens in a row, column, or diagonal,<br> they are the winner.</li>
+                <li>If all tiles are full and no player has won, the game is a tie.</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
